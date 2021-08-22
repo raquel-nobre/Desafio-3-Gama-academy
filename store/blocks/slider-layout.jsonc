@@ -1,0 +1,33 @@
+
+// Estilização das imagens da pagina principal tab-layout.
+{
+    "slider-layout#home": {
+        "props": {
+            "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 1,
+              "phone": 1
+            },
+            "fullWidth":false,
+            "infinite": true,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "carousel"
+          },
+          
+          "children": [
+              "image#1",
+              "image#2"
+          ]
+      },
+
+    "image#home1": {
+      "props": {
+        "src": "assets/BANNER-WOOD.png"
+      }
+    },
+    "image#home2": {
+      "props": {
+        "src": "assets/W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png" 
+      }
+    }
+}

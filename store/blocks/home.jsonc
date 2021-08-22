@@ -1,0 +1,100 @@
+
+{
+  "store.home": {
+    "blocks": [
+      "tab-layout"
+    ]
+  },
+  //tab-layout para separar os produtos por categoria 
+  "tab-layout": {
+    "children": [
+      "tab-list",
+      "slider-layout#home",
+      "tab-content"
+    ]
+  },
+  "tab-list": {
+    "children": [
+      "tab-list.item#1",
+      "tab-list.item#2",
+      "tab-list.item#3",
+      "tab-list.item#4"
+    ]
+  },
+  "tab-content": {
+    "children": [
+      "tab-content.item#1",
+      "tab-content.item#2",
+      "tab-content.item#3",
+      "tab-content.item#4"
+    ]
+  },
+  "tab-list.item#1": {
+    "props": {
+      "tabId": "Promoção",
+      "label": "PROMOÇÃO",
+      "defaultActiveTab": true
+    }
+  },
+  "tab-list.item#2": {
+    "props": {
+      "tabId": "Corinthians",
+      "label": "CORINTHIANS"
+    }
+  },
+  "tab-list.item#3": {
+    "props": {
+      "tabId": "Palmeiras",
+      "label": "PALMEIRAS"
+    }
+  },
+  "tab-list.item#4": {
+    "props": {
+      "tabId": "Signos",
+      "label": "SIGNOS"
+    }
+  },
+  "tab-content.item#1": {
+    "children": [
+      "search-result-layout.customQuery#promocao"
+    ],
+    "props": {
+      "tabId": "Promoção"
+    }
+  },
+  "tab-content.item#2": {
+    "children": [
+      "search-result-layout.customQuery#corinthians"
+    ],
+    "props": {
+      "tabId": "Corinthians"
+    }
+  },
+  "tab-content.item#3": {
+    "children": [
+      "search-result-layout.customQuery#palmeiras"
+    ],
+    "props": {
+      "tabId": "Palmeiras"
+    }
+  },
+  "tab-content.item#4": {
+    "children": [
+      "search-result-layout.customQuery#signos"
+    ],
+    "props": {
+      "tabId": "Signos"
+    }
+  },
+  // Slider-layout para definir os banners principais 
+  "image#1": {
+    "props": {
+      "src": "assets/BANNER-WOOD.png"
+    }
+  },
+  "image#2": {
+    "props": {
+      "src": "assets/W6S9NXIJ40I86DJI17S40123EYNM3J6CNF24M4Y04GGC9TBSXU.png"
+    }
+  }
+}
